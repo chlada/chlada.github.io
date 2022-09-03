@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	background-color: #780404;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 32px;
+}
+
+p {
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 3px;
+	margin-left: 100px;
+}
+
+li {
+	color: #ffffff;
+	font-size: 22px;
+}
+
+/***********/
+/*hauptmenü*/
+/***********/
+.hauptmenu {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	width: 1200px;
+ 	height: 100px;
+}
+
+.menubutton {
+  width: 100%;
+  padding: 24px 100px;
+  color: #ffffff;
+  background-color: #780404;
+  text-decoration: none;
+  border: none;
+  font-size: 32px;
+}
+
+.menubutton:hover{
+  color: #707070;
+  background-color: #780404;
+  text-decoration: none;	
+}
+
+.menubutton_active {
+  width: 100%;
+  padding: 24px 100px;
+  color: #707070;
+  background-color: #ffffff;
+  text-decoration: none;
+  border: none;
+  font-size: 32px;
+}
+/****************/
+/*hauptmenü ende*/
+/****************/
+
+/***************/
+/*katalogseiten*/
+/***************/
+.liste {
+	margin-left: 88px;	
+}
+
+.seite:link {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.seite:visited {
+	color: #d0d0d0;
+	text-decoration: underline;
+}
+
+.seite:hover {
+	color: #707070;
+	text-decoration: underline;
+}
+
+.seite:active {
+	color: #d3d3d3;
+	text-decoration: underline;
+}
+/**********************/
+/*katalogseiten - ende*/
+/**********************/
+
+/*************/
+/*kseite-menü*/
+/*************/
+.kseite_menu {	
+	color: #ffffff;
+	font-size: 22px;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin-left: 100px;
+}
+
+.prev_dead {
+	text-align: left;
+}
+
+.prev {
+	color: #ffffff;
+	text-align: left;
+}
+
+.prev:hover {
+	color: #707070;
+	text-decoration: underline;
+}
+
+.here {
+	text-align: center;
+	width: 680px;
+}
+
+.next {
+	color: #ffffff;
+	text-align: right;
+}
+
+.next:hover {
+	color: #707070;
+	text-decoration: underline;
+}
+
+/********************/
+/*kseite-menü - ende*/
+/********************/
+
+.kseite {
+	display: block;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
