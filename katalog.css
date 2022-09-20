@@ -77,6 +77,7 @@ li {
 	list-style: none;
 	padding: 0;
  	height: 60px;
+	justify-content: center;
 }
 
 .menubutton {
@@ -152,7 +153,7 @@ li {
 	display: flex;
 	list-style: none;
 	padding: 0;
-	/*margin-left: 100px;*/
+	justify-content: center;
 }
 
 .prev_dead {
@@ -162,6 +163,7 @@ li {
 .prev {
 	color: #ffffff;
 	text-align: left;
+	width: 200px;
 }
 
 .prev:hover {
@@ -171,12 +173,13 @@ li {
 
 .here {
 	text-align: center;
-	width: 860px;
+	width: 820px;
 }
 
 .next {
 	color: #ffffff;
 	text-align: right;
+	width: 200px;
 }
 
 .next:hover {
