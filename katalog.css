@@ -81,7 +81,6 @@ li {
 }
 
 .menubutton {
-  width: 100%;
   padding: 24px 60px;
   color: #ffffff;
   background-color: #780404;
@@ -97,7 +96,6 @@ li {
 }
 
 .menubutton_active {
-  width: 100%;
   padding: 24px 60px;
   color: #707070;
   background-color: #ffffff;
@@ -138,7 +136,7 @@ li {
 
 .bild {
 	vertical-align: middle;
-	width: 100%
+	width: 800px;
 }
 /**********************/
 /*katalogseiten - ende*/
@@ -194,5 +192,5 @@ li {
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 800px;
 }
